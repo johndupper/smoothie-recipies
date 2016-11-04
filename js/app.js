@@ -1,2 +1,2 @@
 var $;
-$('.recipe').addClass('animate bounce');
+$('.recipe').addClass('animated');
