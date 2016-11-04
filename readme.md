@@ -1,5 +1,9 @@
 # Smoothie recipes
 
+This is a page with pre-defined HTML. This is an exercise in creatively applying CSS without being able to modify content (no classes, ids, etc.).
+
+The instructions supplied are as follows:
+
 ## Instructions
 
 Clone this repository and test that you can see the Smoothie Recipes in your browser:
