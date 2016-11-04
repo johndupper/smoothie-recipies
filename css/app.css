@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/smoothie.jpg);
+    background-size: cover;
+    background-position: center;
+    background-position: 40%;
+    background-repeat: no-repeat;
+}
+
+section {
+    text-align: center;
+}
+
+.recipe:hover {
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-animation: swing 0.5s;
+    animation: swing 0.5s;
+}
+
+.recipes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.recipe {
+    width: 33%;
+    margin: 0 auto;
+    border: 1px dotted white;
+}
+
+ul {
+    padding: 0.5em;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+@media (max-width: 800px) {
+    .recipe {
+        width: 49.5%;
+        margin: 0 auto;
+    }
+}
+
+
+
+@media (max-width: 500px) {
+    .recipes, section:first-of-type {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .recipe {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
